@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -O2 -ffreestanding -nostdlib -masm-syntax-unified  startup_mspm0.S gpio.c neopixel.c ledmatrix.c main.c -g3 -lgcc -T mspm0g3507.ld -o ledmatrix.elf

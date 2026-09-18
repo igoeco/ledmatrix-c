@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -DMICROBIT_V1 -mcpu=cortex-m0 -mthumb -O2 -ffreestanding -nostdlib   startup_nrf51.S gpio.c neopixel.c ledmatrix.c main.c -g3 -lgcc -T nrf51.ld -o ledmatrix.elf

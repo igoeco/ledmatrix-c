@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -DMICROBIT_V2 -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O2 -ffreestanding -nostdlib startup_nrf52833.S gpio.c neopixel.c ledmatrix.c main.c -g3 -lgcc -T nrf52833.ld -o ledmatrix.elf
