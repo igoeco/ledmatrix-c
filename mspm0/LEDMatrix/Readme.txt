@@ -3,7 +3,7 @@ BBC Microbit v1 demonstrating the NeoPixel LED strip WS2815
 
 
 Note:
-The Cortex_M_Startup.s file in the libs folder does the "sta
+The startup_mspm0.S file in the libs folder does the "sta
 rtup" where it
 declares the Vector Table and the Reset Handler. The Reset H
 andler simply
